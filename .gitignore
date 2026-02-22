@@ -1,8 +1,16 @@
+# Global ignores for the monorepo
 node_modules/
 .env
-npm-debug.log
-yarn-error.log
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.lock-wscript
+.DS_Store
+.vscode/
 dist/
 build/
-coverage/
-.DS_Store
+.next/
+out/
+.env*.local
+*.log
